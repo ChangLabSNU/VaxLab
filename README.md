@@ -19,7 +19,7 @@
 1. Click the "[Open in Colab](https://colab.research.google.com/github/ChangLabSNU/VaxLab/blob/main/VaxLab.ipynb)" badge above
 2. Check the "Example Run" box to test with sample data
 3. Click `Runtime` → `Run all`
-4. Observe the optimization process with NanoLuciferase sequence (~3 minutes)
+4. Observe the optimization process with NanoLuciferase sequence (~1 minute)
 
 ## 📋 Workflow Overview
 
@@ -31,10 +31,9 @@ Enter a unique identifier for your mRNA construct (e.g., `SARS-CoV-2_Spike`, `mG
 ### 2️⃣ **Input Your Antigen**
 - **Protein sequences**: Single-letter amino acid code (ACDEFGHIKLMNPQRSTVWY)
 - **DNA/RNA sequences**: Nucleotide sequences (automatically translated)
-- Supports sequences from 50-1000 amino acids
 
-### 3️⃣ **Choose Optimization Strategy**
-- **LinearDesign**: Balances mRNA structure and codon optimization (recommended)
+### 3️⃣ **Choose CDS Optimization Strategy**
+- **LinearDesign**: Balances mRNA structure and codon optimization
 - **CodonBERT**: AI-based deep learning approach
 - **Simple Codon Optimizer**: Frequency-based codon optimization
 - **CUSTOM**: Tissue-specific optimization (36 human tissues available)
@@ -52,17 +51,17 @@ Enter a unique identifier for your mRNA construct (e.g., `SARS-CoV-2_Spike`, `mG
 - **Structure Viewer**: Interactive RNA secondary structure with folding energy
 - **Quality Report**: Comprehensive analysis with optimization metrics
 
-### Key Metrics
+### Key Metrics in Quality Report
 - **Codon Adaptation Index (CAI)**: Codon usage optimization score
 - **GC Content**: Sequence composition analysis
 - **Minimum Free Energy (MFE)**: RNA structure stability
-- **DegScore**: Predicted mRNA degradation score
+- **DegScore**: Predicted mRNA degradation score ([Leppek et al., 2022](https://doi.org/10.1038/s41467-022-28776-w))
 - **Repeat Analysis**: Detection of problematic sequences
 
 ### Downloadable Files
-- **FASTA sequence**: Optimized sequence
-- **HTML report**: Publication-ready optimization analysis
-- **Order sheet**: Ready-to-use synthesis template
+- **FASTA/GenBank**: Optimized sequence
+- **HTML**: Quality report
+- **XLSX**: Ready-to-use synthesis order form
 
 ## ⏱️ Performance
 
