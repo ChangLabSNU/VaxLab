@@ -10,7 +10,7 @@
 
 - **Multiple Optimization Strategies**: Choose from LinearDesign, CodonBERT, Simple Codon Optimizer, or tissue-specific CUSTOM optimization
 - **Comprehensive UTR Library**: Pre-validated 5' and 3' UTRs from successful commercial vaccines (Pfizer/BioNTech, Moderna)
-- **Custom UTR Generation**: Generate optimized 5' UTRs using Optimus 5-Prime
+- **Custom UTR Generation**: Generate optimized UTRs using GEMORNA or Optimus 5-Prime
 - **Interactive Visualization**: Explore your mRNA construct with an integrated sequence editor and structure viewer
 - **Quality Assessment**: Automated generation of comprehensive optimization reports
 - **No Coding Required**: User-friendly interface accessible to researchers without programming experience
@@ -39,15 +39,15 @@ Enter a unique identifier for your mRNA construct (e.g., `SARS-CoV-2_Spike`, `mG
 - **CUSTOM**: Tissue-specific optimization (36 human tissues available)
 
 ### 4️⃣ **Select UTR Sequences**
-- **5' UTR**: Choose from proven vaccine UTRs or generate custom sequences by using Optimus 5-Prime
-- **3' UTR**: Choose from proven vaccine UTRs
+- **5' UTR**: Choose from proven vaccine UTRs or generate custom sequence by using GEMORNA / Optimus 5-Prime
+- **3' UTR**: Choose from proven vaccine UTRs or generate custom sequence by using GEMORNA
 - Option to input your own custom UTR sequences
 
 
 ## 📊 Output and Analysis
 
 ### Interactive Results
-- **Sequence Editor**: Color-coded visualization of 5' UTR, CDS, and 3' UTR regions
+- **Sequence Editor**: Color-coded visualization of 5' UTR, CDS, and 3' UTR regions & restriction enzyme cut sites
 - **Structure Viewer**: Interactive RNA secondary structure with folding energy
 - **Quality Report**: Comprehensive analysis with optimization metrics
 
@@ -100,6 +100,7 @@ VaxLab integrates several outstanding tools:
 - [CodonBERT](https://github.com/FPPGroup/CodonBERT) - AI-based codon optimization
 - [Simple Codon Optimizer](https://github.com/tdseher/simple-codon-optimizer) - Basic frequency-based codon optimization
 - [CUSTOM](https://github.com/hexavier/CUSTOM) - Tissue-specific optimization for targeted expression
+- [GEMORNA](https://github.com/RainaBio/GEMORNA) - Deep-learning package for mRNA sequence design
 - [Optimus-5-Prime](https://github.com/castillohair/paper-5utr-design) - 5' UTR design
 - [ViennaRNA](https://www.tbi.univie.ac.at/RNA/) - RNA structure prediction
 - [OVE](https://github.com/TeselaGen/tg-oss/tree/master/packages/ove) - Teselagen's Open Source Vector Editor
