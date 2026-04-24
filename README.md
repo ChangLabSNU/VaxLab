@@ -77,9 +77,17 @@ Enter a unique identifier for your mRNA construct (e.g., `SARS-CoV-2_Spike`, `mG
 ## 📚 Citation
 
 If you use VaxLab in your research, please cite:
+> Kim, J., Han, Y., Kwon, C. Y., & Chang, H. (2026). VaxLab: integrated platform for rapid multistrategy mRNA vaccine design. *Experimental & Molecular Medicine*, 1-9.
 
-```
-A pre-print is going to be uploaded soon.
+```bibtex
+@article{kim2026vaxlab,
+  title={VaxLab: integrated platform for rapid multistrategy mRNA vaccine design},
+  author={Kim, Junsoo and Han, Yoojung and Kwon, Chae Young and Chang, Hyeshik},
+  journal={Experimental \& Molecular Medicine},
+  pages={1--9},
+  year={2026},
+  publisher={Nature Publishing Group UK London}
+}
 ```
 
 
